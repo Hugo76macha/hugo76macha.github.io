@@ -1,0 +1,85 @@
+body {
+    background-color: #2d2d2d;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff; /* Change text color to white */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.terminal {
+    background-color: #000;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.button.red {
+    background-color: #ff5f56;
+}
+
+.button.yellow {
+    background-color: #ffbd2e;
+}
+
+.button.green {
+    background-color: #27c93f;
+}
+
+.title {
+    color: #ccc;
+    text-align: center;
+    flex-grow: 1;
+    margin-left: -36px; /* adjust based on button size */
+}
+
+.terminal-body {
+    padding: 10px;
+}
+
+.output {
+    margin-bottom: 10px;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 5px;
+    color: #ff0000; /* Ensure the prompt is white */
+}
+
+#terminal-input {
+    background-color: transparent;
+    border: none;
+    color: #ffffff; /* Change input text color to red */
+    width: 100%;
+    outline: none;
+    caret-color: #ffffff; /* Set caret color to red */
+}
