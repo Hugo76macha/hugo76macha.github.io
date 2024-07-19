@@ -3,15 +3,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const output = document.querySelector('.output');
 
     const commands = {
-        help: 'Voici toutes les commandes disponibles: help, infos, projets, contact',
-        infos: 'Je suis un passonié d\'infromatique depuis 2023 quand je suis arriver dans cette communauté. \n J\'aime bien le dev, je fais seulement du Js. Je suis aussie dans quelques projets comme un DmBot afin que mes clients puissent dm all grace as un token de bot discord.',
-        projets: 'Mon projet de rêve est de créer des bots certifiers =). \n Pour l\'instant je suis juste entrain de faire mon propre NdProtect.',
-        contact: 'Discord: Hugo76_macha'
+        help: 'Voici toutes les commandes disponibles : help, infos, projets, contact',
+        infos: 'Je suis un passionné d\'informatique depuis 2023 quand je suis arrivé dans cette communauté. \n J\'aime bien le dev, je fais seulement du JS. Je suis aussi dans quelques projets comme un DmBot afin que mes clients puissent DM all grâce à un token de bot Discord.',
+        projets: 'Mon projet de rêve est de créer des bots certifiés =). \n Pour l\'instant je suis juste en train de faire mon propre NdProtect.',
+        contact: 'Discord : Hugo76_macha'
     };
 
     const initialText = [
-        'Bievenue sur mon portofolio !',
-        'Marques help pour la liste des commandes.'
+        'Bienvenue sur mon portfolio !',
+        'Marquez help pour la liste des commandes.'
     ];
 
     // Function to simulate typing effect
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (commands[command]) {
                 addOutput(commands[command]);
             } else {
-                addOutput(`Command not found: ${command}`);
+                addOutput(`Commande non trouvée : ${command}`);
             }
         }
     });
