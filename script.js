@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const commands = {
         help: 'Voici toutes les commandes disponibles : help, infos, projets, contact',
         infos: 'Je suis un passionné d\'informatique depuis 2023 quand je suis arrivé dans cette communauté. \n J\'aime bien le dev, je fais seulement du JS. Je suis aussi dans quelques projets comme un DmBot afin que mes clients puissent DM all grâce à un token de bot Discord.',
-        projets: 'Mon projet de rêve est de créer des bots certifiés =). \n Pour l\'instant je suis juste en train de faire mon propre NdProtect.',
+        projets: 'Mon projet à été de faire mon bot certifiée =). \n https://discord.com/application-directory/1230560579018817708.',
         contact: 'Discord : Hugo76_macha'
     };
 
