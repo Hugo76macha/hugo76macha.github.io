@@ -12,18 +12,7 @@
 
 ---
 
-# ⚡ Comment ça fonctionne ?
-# 1. **Cloner ce dépôt** : Clonez le dépôt sur votre machine locale.
-#    ```bash
-#    git clone https://github.com/ton-utilisateur/nom-du-depot.git
-#    ```
-
-# 2. **Ouvrir le fichier `index.html`** : Après avoir téléchargé ou cloné le projet, ouvrez simplement le fichier `index.html` dans votre navigateur pour commencer.
-
-# 3. **Utilisation** : Entrez un mot de passe dans le champ prévu à cet effet et appuyez sur le bouton **Commencer** pour voir la simulation se dérouler dans le terminal. 👨‍💻
-
----
-
+# 
 # 🧑‍💻 Développement :
 # Ce projet utilise uniquement des fichiers **HTML**, **CSS**, et **JavaScript**. Pas besoin de serveur ou de backend pour faire fonctionner ce projet, tout est géré côté client.
 
@@ -58,10 +47,6 @@
 
 ---
 
-# 🚀 Déploiement sur GitHub Pages :
-# Le projet est déjà déployé sur **GitHub Pages** ! Vous pouvez y accéder directement en cliquant [ici](https://ton-utilisateur.github.io/nom-du-depot/). 🌍
-
----
 
 # 🤝 Contribuer :
 # Si vous souhaitez contribuer à ce projet, n'hésitez pas à ouvrir un **pull request** ou à signaler un **bug**. Ensemble, nous pouvons améliorer cette simulation ! 🎉
@@ -74,7 +59,7 @@
 ---
 
 # 📬 Contact :
-# Pour toute question, contactez-moi à : **ton.email@exemple.com** 📧
+# Pour toute question, contactez-moi à : **hugo76_macha** 📧
 
 ---
 
