@@ -1,0 +1,15 @@
+{
+  "name": "nitrogen-master",
+  "version": "1.0.0",
+  "main": "server.js",
+  "servers": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "deserverion": "",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
