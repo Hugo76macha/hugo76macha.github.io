@@ -24,3 +24,12 @@ p {
     font-weight: bold;
     color: #ffffff;
 }
+
+.profile-img img {
+    border-radius: 50%;
+    width: 150px; /* Ajuste la taille de l'image selon tes préférences */
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
