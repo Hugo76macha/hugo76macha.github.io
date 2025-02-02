@@ -27,9 +27,32 @@ p {
 
 .profile-img img {
     border-radius: 50%;
-    width: 150px; /* Ajuste la taille de l'image selon tes préférences */
+    width: 150px;
     height: 150px;
     object-fit: cover;
     margin-top: 20px;
 }
 
+/* Style du bouton Roblox */
+.roblox-btn a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff4444;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.roblox-btn a:hover {
+    background-color: #ff6666;
+}
+
+.roblox-logo {
+    width: 30px; /* Ajuste la taille du logo */
+    height: 30px;
+    margin-right: 10px;
+}
