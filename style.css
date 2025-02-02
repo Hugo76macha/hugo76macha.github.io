@@ -1,0 +1,26 @@
+body {
+    background-color: #111;
+    color: #ff4444;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20vh;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+}
+
+.date {
+    font-weight: bold;
+    color: #ffffff;
+}
