@@ -1,3 +1,4 @@
+/* Styles généraux */
 body {
     background-color: #111;
     color: #ff4444;
@@ -5,12 +6,15 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    transition: background 0.3s, color 0.3s;
 }
 
+/* Conteneur principal */
 .container {
     margin-top: 20vh;
 }
 
+/* Titre principal */
 h1 {
     font-size: 24px;
     text-transform: uppercase;
@@ -20,11 +24,13 @@ p {
     font-size: 18px;
 }
 
+/* Date mise en évidence */
 .date {
     font-weight: bold;
     color: #ffffff;
 }
 
+/* Image de profil */
 .profile-img img {
     border-radius: 50%;
     width: 150px;
@@ -33,26 +39,74 @@ p {
     margin-top: 20px;
 }
 
-/* Style du bouton Roblox */
-.roblox-btn a {
-    display: inline-flex;
-    align-items: center;
+/* Bouton mode clair/sombre */
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+#theme-toggle:hover {
+    background-color: #ff6666;
+}
+
+/* Conteneur des boutons alignés */
+.btn-container {
+    display: flex;
     justify-content: center;
+    gap: 20px; /* Espacement entre les boutons */
+    margin-top: 20px;
+}
+
+/* Boutons */
+.btn a {
+    display: inline-block;
     background-color: #ff4444;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 8px;
     font-size: 18px;
-    margin-top: 20px;
+    transition: background 0.3s;
+    cursor: pointer;
 }
 
-.roblox-btn a:hover {
+.btn a:hover {
     background-color: #ff6666;
 }
 
-.roblox-logo {
-    width: 30px; /* Ajuste la taille du logo */
-    height: 30px;
-    margin-right: 10px;
+/* Mode clair */
+.light-mode {
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.light-mode .date {
+    color: #111;
+}
+
+.light-mode #theme-toggle {
+    background-color: #222;
+    color: white;
+}
+
+.light-mode #theme-toggle:hover {
+    background-color: #444;
+}
+
+.light-mode .btn a {
+    background-color: #222;
+    color: white;
+}
+
+.light-mode .btn a:hover {
+    background-color: #444;
 }

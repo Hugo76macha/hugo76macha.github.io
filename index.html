@@ -7,26 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Bouton de mode clair/sombre en haut à gauche -->
+    <button id="theme-toggle">🌙 Mode Sombre</button>
+
     <div class="container">
         <h1>⚠️ Hugo76_Macha a quitté Discord ⚠️</h1>
-        <p>Hugo76_Macha a arrêté Discord le <span class="date">10 octobre 2024</span>.</p>
-        <p>Ce site est une archive de son passage.</p>
-        
+        <p>Hugo76_Macha a arrêté Discord le <span class="date">7 octobre 2024</span>.</p>
+        <p id="counter">⏳ Départ depuis : <span id="days-count">Calcul...</span> jours.</p>
+
         <!-- Photo de profil GitHub -->
         <div class="profile-img">
             <img src="https://avatars.githubusercontent.com/u/134925503?v=4" alt="Photo de profil Hugo76_Macha">
         </div>
 
-        <!-- Bouton README -->
-        <p>📄 Plus d'infos ici : <a href="https://github.com/Hugo76macha/hugo76macha.github.io/blob/main/readme.md" target="_blank">README</a></p>
+        <!-- Conteneur des boutons -->
+        <div class="btn-container">
+            <!-- Bouton README -->
+            <div class="btn">
+                <a href="https://github.com/Hugo76macha/hugo76macha.github.io/blob/main/readme.md" target="_blank">
+                    📄 Voir le README
+                </a>
+            </div>
 
-        <!-- Nouveau bouton Roblox avec logo -->
-        <div class="roblox-btn">
-            <a href="https://www.roblox.com/fr/users/2402952321/profile" target="_blank">
-                <img src="https://i.etsystatic.com/12487469/r/il/d386b2/2486041660/il_1140xN.2486041660_5di6.jpg" alt="Logo Roblox" class="roblox-logo">
-                Mon Profil Roblox
-            </a>
+            <!-- Bouton Profil Roblox -->
+            <div class="btn">
+                <a href="https://www.roblox.com/fr/users/2402952321/profile" target="_blank">
+                    🎮 Mon Profil Roblox
+                </a>
+            </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
