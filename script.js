@@ -8,6 +8,9 @@ function updateDaysCount() {
     document.getElementById("days-count").textContent = daysDiff;
 }
 
+// Mettre à jour le compteur chaque seconde (1000 ms)
+setInterval(updateDaysCount, 1000);
+
 // Mode sombre / clair
 const themeToggle = document.getElementById("theme-toggle");
 themeToggle.addEventListener("click", () => {
@@ -19,5 +22,5 @@ themeToggle.addEventListener("click", () => {
     }
 });
 
-// Exécuter le compteur au chargement de la page
+// Exécuter le compteur initialement pour définir le nombre de jours au chargement
 updateDaysCount();
